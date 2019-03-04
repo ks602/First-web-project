@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html id="survey">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <h1>SURVEY</h1>
+</head>
+<body>
+  <form action="survey.php" method="post">
+
+    <div>
+      <label for="name">Name: </label>
+      <input type="text" name="name" placeholder="Enter your name">
+    </div>
+
+    <div>
+      <label for="year">Year of study</label>
+      <select name="year">
+        <option value="1" selceted>Year 1</option>
+        <option value="2">Year 2</option>
+        <option value="3">Year 3</option>
+        <option value="4">Year 4</option>
+        <option value="5">PG</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="field">Field of study:</label>
+      <input type="text" name="field" id="field" placeholder="eg. Business">
+    </div>
+    <div>
+    How do you know this webpage?
+    <div>
+      <label for="Social Media">Social Media</label>
+      <input type="radio" name="socialMedia" id="socialMedia">
+    </div>
+    <div>
+      <label for="friend">Friend</label>
+      <input type="checkbox" name="friend" id="friend">
+    </div>
+  </div>
+
+    <div>
+      <label for="comment" style="float:left">Other Comments: </label>
+      <textarea name="comment" id="comment" rows="8" cols="30%"></textarea>
+    </div>
+  </form>
+  <footer> <a href="basics.html">Go back</a></footer>
+</body>
+</html>
